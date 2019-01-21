@@ -1,0 +1,351 @@
+.container
+  padding-top: 60px
+  min-height: 100vh
+  background-color: #fafafa
+.item
+  max-width: 935px
+  display: flex
+  margin: 0 auto
+.topic
+  margin-bottom: 60px
+  background: #ffffff
+  border-radius: 3px
+  border: 1px solid #e6e6e6
+.item-left
+  width: 100%
+  max-width: 614px
+  margin-right: 28px
+  float: left
+.item-right
+  width: 100%
+  max-width: 293px
+  float: right
+.topic-header
+  height: 60px
+  padding: 16px
+  box-sizing: border-box
+  display: flex
+  align-items: center
+.user-img
+  width: 40px
+  height: 40px
+  cursor: pointer
+  img
+    width: 100%
+    height: 100%
+.user-name
+  margin-left: 12px
+  a
+    color: #262626
+    font-weight: 600
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    text-decoration: none
+.topic-middle
+  width: 100%
+  font-size: 0
+  img
+    width: 100%
+    height: 100%
+.topic-footer
+  padding: 0 16px
+  box-sizing: border-box
+.handler
+  display: flex
+  flex-direction: row
+  margin-top: 4px
+  span
+    display: inline-block
+  button
+    outline: none
+    cursor: pointer
+.btn-none-styl
+  width: 40px
+  height: 40px
+  border: none
+  background: none
+  padding: 0 0 0 0
+  display: flex
+  align-items: center
+  justify-content: center
+  .active
+    background-position: -26px -142px
+  span
+    display: inline-block
+    width: 24px
+    height: 24px
+.love
+  background-repeat: no-repeat
+  background-position: 0 -142px
+.comment
+  background-repeat: no-repeat
+  background-position: -84px -31px
+.sharp
+  background-repeat: no-repeat
+  background-position: -78px -194px
+.remove
+  background-repeat: no-repeat
+  background-position: -215px -130px
+.mlauto
+  margin-left: auto
+  margin-right: -10px
+.zan-num
+  color: #262626
+  font-weight: 600
+  text-align: left
+  margin-bottom: 8px
+.news
+  overflow: hidden
+  padding-bottom: 6px
+  position: relative
+  width: 100%
+  word-wrap: break-word
+  margin-top: -5px
+  padding-top: 5px
+  margin-right: -2px
+  padding-right: 2px
+  h2
+    text-align: left
+    span
+      font-size: 14px
+.load-more
+  color: #999
+  font-weight: 500
+  text-align: left
+  margin-bottom: 8px
+  cursor: pointer
+.common-list
+  width: 100%
+  text-align: left
+  ul
+    width: 100%
+    li
+      overflow: hidden
+      padding-bottom: 6px
+      position: relative
+      width: 100%
+      word-wrap: break-word
+      margin-top: -5px
+      padding-top: 5px
+      margin-right: -2px
+      padding-right: 2px
+      display: flex
+      width: 100%
+      align-items: center
+      a
+        cursor: pointer
+        color: #262626
+        margin-right: 4px
+    .u-love
+      background-repeat: no-repeat
+      //background-position: -241px -169px
+      background-position: -241px -156px
+      height: 11px
+      width: 12px
+      display: inline-block
+      margin-left: auto
+      cursor: pointer
+.u-left
+  width: calc(100% - 28px)
+  display: inline-block
+  line-height: 18px
+.send-time
+  text-align: left
+  margin-bottom: 4px
+  a
+    font-size: 10px
+    letter-spacing: .2px
+    color: #999
+    margin-bottom: 5px
+    text-transform: uppercase
+.send-input
+  display: flex
+  border-top: 1px solid #efefef
+  color: #999
+  -webkit-flex-shrink: 0
+  -ms-flex-negative: 0
+  flex-shrink: 0
+  font-size: 14px
+  line-height: 18px
+  min-height: 56px
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  padding-right: 26px
+  box-sizing: border-box
+  align-items: center
+.textarea
+  height: 18px
+  width: 100%
+  border: 0
+  resize: none
+  color: #262626
+  background: 0 0
+  outline: 0
+  padding: 0
+.right-content
+  width: 100%
+  height: 100vh
+  .right-header
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: horizontal
+    -webkit-box-direction: normal
+    -webkit-flex-direction: row
+    -ms-flex-direction: row
+    flex-direction: row
+    height: 100%
+    margin-bottom: 12px
+    max-height: 50px
+    width: 100%
+    padding-left: 5px
+    .right-header-img
+      -webkit-align-self: center
+      align-self: center
+      display: block
+      -webkit-box-flex: 0
+      -webkit-flex: none
+      -ms-flex: none
+      flex: none
+      width: 50px
+      height: 100%
+      position: relative
+      background-color: #fafafa
+      border-radius: 50%
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      -webkit-flex: 0 0 auto
+      -ms-flex: 0 0 auto
+      flex: 0 0 auto
+      overflow: hidden
+      img
+        width: 100%
+        height: 100%
+.right-header-img::after
+  border: 1px solid rgba(0,0,0,.0975)
+  border-radius: 50%
+  bottom: 0
+  content: ''
+  left: 0
+  pointer-events: none
+  position: absolute
+  right: 0
+  top: 0
+.right-u-content
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  margin-left: 14px
+  -webkit-box-orient: vertical
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+.common-bj
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-direction: normal
+  text-align: left
+.right-u-id
+  -webkit-box-orient: horizontal
+  -webkit-flex-direction: row
+  -ms-flex-direction: row
+  flex-direction: row
+  font-size: 14px
+  line-height: 18px
+  margin-bottom: 2px
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+.right-u-name
+  font-size: 12px
+  line-height: 14px
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+  display: inline-block
+  color: #999
+.right-quick-item
+  -webkit-box-flex: 0
+  -webkit-flex: 0 0 auto
+  -ms-flex: 0 0 auto
+  flex: 0 0 auto
+  border: 1px solid #e6e6e6
+  margin-bottom: 4px
+  -webkit-box-pack: start
+  -webkit-justify-content: flex-start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  -webkit-box-align: stretch
+  -webkit-align-items: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+  -webkit-align-content: stretch
+  -ms-flex-line-pack: stretch
+  align-content: stretch
+  box-sizing: border-box
+  border-radius: 4px
+  background: #ffffff
+.right-quick-header
+  padding: 4px 16px
+  margin-top: 12px
+  display: flex
+  justify-content: space-between
+  a
+    font-size: 12px
+.quick-header-title
+  font-weight: 500
+  color: #999
+  font-size: 14px
+.right-quick-footer
+  margin-left: 16px
+  display: flex
+  flex: 0 0 auto
+.person-item-left
+  border-radius: 50%
+  margin-right: 14px
+.quick-footer-person
+  height: 182px
+  width: 100%
+  overflow: hidden auto
+.footer-person-box
+  padding-bottom: 10px
+  padding-top: 0
+  flex-direction: column
+.person-item
+  height: 52px
+  width: 100%
+  display: flex
+  align-items: center
+  text-align: left
+.person-right-top
+  color: #262626
+  font-size: 14px
+  font-weight: 600
+  line-height: 18px
+  margin-bottom: 2px
+.person-right-bottom
+  font-size: 10px
+  line-height: 12px
+  color: #999
+.follow
+  margin-left: auto
+  margin-right: 16px
+  font-size: 12px
+  border: 0
+  color: #3897f0
+  display: inline
+  padding: 0
+  font-weight: 600
+  cursor: pointer
+
